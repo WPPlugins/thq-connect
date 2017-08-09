@@ -1,0 +1,30 @@
+/**
+* THQ-CONNECT ADMIN BAR
+* v2.1.0
+*/
+
+/* Unread Email Icon */
+#wpadminbar #wp-admin-bar-thq-connect-unread-email .ab-icon:before {
+  content: '\f466';
+  top: 3px;
+} 
+/* Upcoming Events Icon */
+#wpadminbar #wp-admin-bar-thq-connect-upcoming-events .ab-icon:before {
+  content: '\f508';
+  top: 3px;
+}
+
+/* Outstanding Tasks Icon */
+#wpadminbar #wp-admin-bar-thq-connect-outstanding-tasks .ab-icon:before {
+  content: '\f163';
+  top: 3px;
+}
+/* Make items display as block */
+#wp-admin-bar-thq-connect-unread-email, #wp-admin-bar-thq-connect-upcoming-events, #wp-admin-bar-thq-connect-outstanding-tasks {
+  display: block!important;
+}
+/* Domain Prefix - unsure if this is actually being used? */
+#wp-admin-bar-user-info .domain-prefix {
+  color: #a0a5aa;
+  font-size: 11px;
+}

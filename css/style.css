@@ -1,0 +1,66 @@
+/**
+* THQ-CONNECT STYLES
+* v2.2.1
+*/
+
+/* Connect/Connected Buttons default */
+a#thq-connect-connect-button {
+	text-decoration: none;
+	vertical-align: middle !important;
+ 	padding: 7px 14px;
+	font-size: 14px;
+	outline: none !important;
+	background-image: none !important;
+	filter: none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	text-shadow: none;
+	display: inline-block;
+	margin-bottom: 0;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+	border-radius: 4px;
+}
+/* Connect Button Link */
+a.thq-connect-connect {
+	color: #FFFFFF;
+	background-color: #3598dc !important;
+	border: 1px solid transparent;
+}
+/* Connected Button Link */
+a.thq-connect-connected {
+	color: #BABBBF;
+	background-color: #fff;
+	border: 1px solid #BABBBF;
+}
+
+/* Client Secret show/hide link */
+#clientsecrettoggle i:before {
+	font-family: 'dashicons';
+	display: inline-block;
+	-webkit-font-smoothing: antialiased;
+	font: normal 20px/1;
+	vertical-align: top;
+}
+/* Client Secret Show Link Icon */
+#clientsecrettoggle.show i:before {
+	content: '\f177';
+}
+/* Client Secret Hide Link Icon */
+#clientsecrettoggle.hide i:before {
+	content: '\f530';
+}
+.column-edit {
+	width:20px !important;
+}

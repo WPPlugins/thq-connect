@@ -1,0 +1,20 @@
+/* Admin Bar */
+#wpadminbar #wp-admin-bar-thq-connect-unread-email .ab-icon:before {
+    content: '\f466';
+    top: 3px;
+} 
+#wpadminbar #wp-admin-bar-thq-connect-upcoming-events .ab-icon:before {
+    content: '\f508';
+    top: 3px;
+}
+#wpadminbar #wp-admin-bar-thq-connect-outstanding-tasks .ab-icon:before {
+    content: '\f163';
+    top: 3px;
+}
+#wp-admin-bar-thq-connect-unread-email, #wp-admin-bar-thq-connect-upcoming-events, #wp-admin-bar-thq-connect-outstanding-tasks {
+            display: block!important;
+}
+#wp-admin-bar-user-info .domain-prefix {
+    color: #a0a5aa;
+    font-size: 11px;
+}

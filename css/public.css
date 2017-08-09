@@ -1,0 +1,12 @@
+#wpadminbar #wp-admin-bar-thq-unread-email .ab-icon:before {
+    content: '\f466';
+    top: 3px;
+} 
+#wpadminbar #wp-admin-bar-thq-upcoming-events .ab-icon:before {
+    content: '\f508';
+    top: 3px;
+}
+#wpadminbar #wp-admin-bar-thq-outstanding-tasks .ab-icon:before {
+    content: '\f163';
+    top: 3px;
+}
